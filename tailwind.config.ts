@@ -4,7 +4,7 @@ import forms from '@tailwindcss/forms';
 import typography from '@tailwindcss/typography';
 import type { Config } from 'tailwindcss';
 import { skeleton } from '@skeletonlabs/tw-plugin';
-import { customTheme } from "./custom-theme";
+import { myCustomTheme } from "./custom-theme";
 
 const config = {
     // 2. Opt for dark mode to be handled via the class method
@@ -26,7 +26,7 @@ const config = {
         skeleton({
             themes: {
                 custom: [
-                    customTheme
+                    myCustomTheme
                 ],
             }
         }),
