@@ -11,7 +11,7 @@
 </script>
 
 <header>
-    <a href="/" class="text-2xl btn hover:font-bold">Cookie Bookie</a>
+    <a href="/" class="text-3xl tracking-wide btn hover:font-bold">Cookie Bookie</a>
 </header>
 
 <main class="mx-auto my-20 max-w-screen-sm px-4">

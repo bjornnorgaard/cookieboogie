@@ -8,9 +8,9 @@
     let { steps }: Props = $props();
 </script>
 
-<h3 class="font-bold h3">Planen</h3>
+<h3 class="font-bold tracking-wide h3">Planen</h3>
 
-<div class="flex flex-col gap-4 p-4 card variant-filled-tertiary">
+<div class="flex flex-col gap-4 p-4 shadow-2xl card variant-filled-tertiary">
     {#each steps as i}
         <div>
             <label class="flex items-center gap-4">
